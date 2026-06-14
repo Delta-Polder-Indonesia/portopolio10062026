@@ -44,7 +44,7 @@ export default function Contact() {
             </div>
             <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl p-5 sm:p-6">
               <div className="absolute inset-0 bg-gradient-to-br from-kamui-600 to-kamui-800" />
-              <img src="/images/kamui-mountain.jpg" alt="" loading="lazy" decoding="async" className="absolute inset-0 h-full w-full object-cover opacity-20 mix-blend-overlay" />
+              <img src="images/kamui-mountain.jpg" alt="" loading="lazy" decoding="async" className="absolute inset-0 h-full w-full object-cover opacity-20 mix-blend-overlay" />
               <div className="relative">
                 <h3 className="font-display text-base font-semibold text-white">Siap Memulai?</h3>
                 <p className="mt-1 text-xs text-kamui-200/70">Konsultasi gratis 30 menit.</p>

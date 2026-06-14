@@ -40,9 +40,9 @@ export default function BeforeAfterShowcase() {
             onPointerUp={onPointerUp}
           >
             <div className="relative aspect-[16/9] sm:aspect-[16/8] w-full">
-              <img src="/images/kamui-mountain.jpg" alt="Before" loading="lazy" decoding="async" className="absolute inset-0 h-full w-full object-cover" />
+              <img src="images/kamui-mountain.jpg" alt="Before" loading="lazy" decoding="async" className="absolute inset-0 h-full w-full object-cover" />
               <div className="absolute inset-y-0 left-0 overflow-hidden" style={{ width: `${pos}%` }}>
-                <img src="/images/kamui-hero.jpg" alt="After" loading="lazy" decoding="async" className="absolute inset-0 h-full w-full object-cover" style={{ width: `${containerRef.current?.offsetWidth ?? 1200}px`, maxWidth: 'none' }} />
+                <img src="images/kamui-hero.jpg" alt="After" loading="lazy" decoding="async" className="absolute inset-0 h-full w-full object-cover" style={{ width: `${containerRef.current?.offsetWidth ?? 1200}px`, maxWidth: 'none' }} />
               </div>
               <div className="absolute inset-y-0" style={{ left: `${pos}%` }}>
                 <div className="h-full w-0.5 bg-white/80" />

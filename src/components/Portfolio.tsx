@@ -4,9 +4,9 @@ import { ArrowUpRight } from 'lucide-react';
 import TiltMedia from './TiltMedia';
 
 const projects = [
-  { title: 'FinFlow Dashboard', jp: 'フィンフロー', category: 'UI/UX Design • SaaS', desc: 'Platform keuangan real-time dengan antarmuka intuitif untuk fintech terkemuka.', image: '/images/project1.jpg', tags: ['React', 'Figma', 'D3.js'] },
-  { title: 'LuxeCart Commerce', jp: 'ラグジュカート', category: 'Web Dev • E-Commerce', desc: 'Toko online premium dengan rekomendasi AI dan checkout optimal.', image: '/images/project2.jpg', tags: ['Next.js', 'Stripe', 'Tailwind'] },
-  { title: 'CloudMetrics Analytics', jp: 'クラウドメトリクス', category: 'Custom Software', desc: 'Platform analitik enterprise dengan monitoring real-time.', image: '/images/project3.jpg', tags: ['TypeScript', 'PostgreSQL', 'AWS'] },
+  { title: 'FinFlow Dashboard', jp: 'フィンフロー', category: 'UI/UX Design • SaaS', desc: 'Platform keuangan real-time dengan antarmuka intuitif untuk fintech terkemuka.', image: 'images/project1.jpg', tags: ['React', 'Figma', 'D3.js'] },
+  { title: 'LuxeCart Commerce', jp: 'ラグジュカート', category: 'Web Dev • E-Commerce', desc: 'Toko online premium dengan rekomendasi AI dan checkout optimal.', image: 'images/project2.jpg', tags: ['Next.js', 'Stripe', 'Tailwind'] },
+  { title: 'CloudMetrics Analytics', jp: 'クラウドメトリクス', category: 'Custom Software', desc: 'Platform analitik enterprise dengan monitoring real-time.', image: 'images/project3.jpg', tags: ['TypeScript', 'PostgreSQL', 'AWS'] },
 ];
 
 export default function Portfolio() {

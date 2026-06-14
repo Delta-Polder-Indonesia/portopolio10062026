@@ -10,7 +10,7 @@ export default function CTA() {
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <motion.div initial={{ opacity: 0, y: 40, scale: 0.97 }} animate={inView ? { opacity: 1, y: 0, scale: 1 } : {}} transition={{ duration: 0.8 }} className="relative overflow-hidden rounded-2xl sm:rounded-[2rem]">
           <div className="absolute inset-0">
-            <img src="/images/kamui-mountain.jpg" alt="" loading="lazy" decoding="async" className="h-full w-full object-cover" />
+            <img src="images/kamui-mountain.jpg" alt="" loading="lazy" decoding="async" className="h-full w-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-br from-kamui-950/95 via-kamui-900/85 to-kamui-950/95" />
           </div>
           <div className="absolute right-0 top-0 h-64 w-64 rounded-full bg-sakura-400/10 blur-[100px]" />

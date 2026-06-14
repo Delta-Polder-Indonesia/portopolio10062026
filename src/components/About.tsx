@@ -22,7 +22,7 @@ export default function About() {
         <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <motion.div initial={{ opacity: 0, x: -40 }} animate={inView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.85 }} className="relative">
             <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl">
-              <TiltMedia src="/images/kamui-bridge.jpg" alt="Kamui Design" className="aspect-[4/3] w-full sm:aspect-auto sm:h-[420px] lg:h-[480px]" />
+              <TiltMedia src="images/kamui-bridge.jpg" alt="Kamui Design" className="aspect-[4/3] w-full sm:aspect-auto sm:h-[420px] lg:h-[480px]" />
               <div className="absolute inset-0 bg-gradient-to-t from-kamui-950/90 via-kamui-950/20 to-transparent" />
               <div className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 text-4xl sm:text-6xl font-display font-bold text-white/10 select-none">神威</div>
             </div>

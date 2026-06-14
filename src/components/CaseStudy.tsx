@@ -78,7 +78,7 @@ export default function CaseStudy() {
           >
             <div className="overflow-hidden rounded-3xl border border-kamui-700/40">
               <TiltMedia
-                src="/images/kamui-hero.jpg"
+                src="images/kamui-hero.jpg"
                 alt="Showcase Kamui CIPHERSLAB"
                 className="h-[280px] w-full sm:h-[360px]"
               />

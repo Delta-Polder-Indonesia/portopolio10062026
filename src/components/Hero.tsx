@@ -41,7 +41,7 @@ export default function Hero() {
   return (
     <section id="beranda" className="relative min-h-[100svh] overflow-hidden" onMouseMove={move} onMouseLeave={leave}>
       <motion.div style={{ y: bgY, x: bgX }} className="absolute -inset-8">
-        <img src="/images/kamui-hero.jpg" alt="" className="h-full w-full object-cover" fetchPriority="high" />
+        <img src="images/kamui-hero.jpg" alt="" className="h-full w-full object-cover" fetchPriority="high" />
       </motion.div>
 
       <motion.div aria-hidden className="pointer-events-none absolute left-1/2 top-1/3 h-[50vmin] w-[50vmin] -translate-x-1/2 -translate-y-1/2 rounded-full bg-sakura-400/25 blur-[130px] animate-breathing" style={reduced ? {} : { x: glowX, y: glowY }} />
